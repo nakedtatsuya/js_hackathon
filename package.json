@@ -1,0 +1,21 @@
+{
+	"name": "js_hackthon",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx @biomejs/biome format ./ --write"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jest": "^29.7.0",
+		"jest-dev-server": "^10.0.0",
+		"jest-puppeteer": "^10.0.1",
+		"puppeteer": "^22.6.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.2"
+	}
+}
